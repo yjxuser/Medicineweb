@@ -1,0 +1,8 @@
+
+class BaseConfig(object):
+    SQLALCHEMY_DATABASE_URI = "mysql://stu1:dachuang1234@172.31.246.30:3307/dachuang_li"
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    SQLALCHEMY_POOL_SIZE = 5
+    SQLALCHEMY_POOL_TIMEOUT = 30
+    SQLALCHEMY_POOL_RECYCLE = -1
+
